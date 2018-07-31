@@ -1,0 +1,5 @@
+http://www.spoj.com/problems/TRVCOST/
+http://www.spoj.com/problems/MICEMAZE/
+
+doc them:
+http://techieme.in/shortest-path-using-dijkstras-algorithm/

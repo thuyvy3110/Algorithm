@@ -1,0 +1,7 @@
+https://www.hackerrank.com/challenges/bfsshortreach
+http://www.spoj.com/problems/MAKEMAZE/
+
+doc them:
+
+https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
+

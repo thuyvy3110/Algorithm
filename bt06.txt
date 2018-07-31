@@ -1,0 +1,5 @@
+https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/practice-problems/algorithm/bishu-and-his-girlfriend/
+https://www.spoj.com/problems/CAM5/
+
+doc them 
+https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm

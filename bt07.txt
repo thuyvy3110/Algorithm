@@ -1,0 +1,5 @@
+https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/algorithm/monk-and-multiplication/
+https://www.hackerrank.com/challenges/qheap1/problem
+
+doc them:
+https://www.cs.auckland.ac.nz/software/AlgAnim/heaps.html
