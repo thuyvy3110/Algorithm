@@ -1,0 +1,3 @@
+C++: http://www.fredosaurus.com/notes-cpp/algorithms/sorting/stl-sort-arrays.html
+Python: https://wiki.python.org/moin/HowTo/Sorting
+Java: http://robertovormittag.net/array-sorting-algorithms-in-the-java-library/

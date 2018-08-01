@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1533045765 source:e:\tai lieu hoc tap\lap trinh\c c++\thuc hanh\bigo\mid\code\code\main.cpp
+	<stdio.h>
+	<ctype.h>
+	<algorithm>
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+	<functional>
+
