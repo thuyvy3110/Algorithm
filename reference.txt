@@ -1,0 +1,15 @@
+http://codeforces.com/problemset/problem/892/B
+http://codeforces.com/problemset/problem/6/C
+http://codeforces.com/problemset/problem/499/B
+http://codeforces.com/problemset/problem/90/B
+http://codeforces.com/problemset/problem/676/A
+http://codeforces.com/problemset/problem/682/B
+http://codeforces.com/problemset/problem/159/B
+http://codeforces.com/problemset/problem/991/B
+http://codeforces.com/contest/994/problem/B
+
+https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html
+https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
+https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm
+http://techieme.in/shortest-path-using-dijkstras-algorithm/
+https://www.cs.auckland.ac.nz/software/AlgAnim/heaps.html
