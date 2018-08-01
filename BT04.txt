@@ -1,5 +1,0 @@
-https://www.spoj.com/problems/STPAR/
-https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1876
-
-doc them:
-https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html
