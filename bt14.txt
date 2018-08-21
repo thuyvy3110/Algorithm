@@ -1,0 +1,2 @@
+https://www.hackerearth.com/practice/data-structures/advanced-data-structures/trie-keyword-tree/practice-problems/algorithm/search-engine/
+http://lightoj.com/volume_showproblem.php?problem=1224

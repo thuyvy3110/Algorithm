@@ -1,0 +1,104 @@
+/*
+*
+*/
+#include <algorithm>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <queue>
+#include <functional>
+
+using namespace std;
+
+#define N 1000000
+
+struct Node{
+    int key;
+    Node* left;
+    Node* right;
+};
+
+Node* createNode(int _key){
+    Node* newNode = new Node();
+    newNode->key = _key;
+    newNode->left = newNode->right = nullptr;
+
+    return newNode;
+}
+
+Node* insertNode(Node* root, int _key){
+
+    if(root == nullptr){
+        return createNode(_key);
+    }
+    if(_key < root->key){
+        root->left = insertNode(root->left, _key);
+    }
+    else if(_key > root->key){
+        root->right = insertNode(root->right, _key);
+    }
+
+    return root;
+}
+
+Node* searchNode(Node* root, int _key){
+
+    if(root == nullptr || root->key == _key){
+        return root;
+    }
+    if(root->key > _key){
+        return searchNode(root->left, _key);
+    }
+    return searchNode(root->right, _key);
+}
+
+
+Node* createTree(Node* &root, int a[], int n){
+    for(int i=0; i < n; i++){
+        root = insertNode(root, a[i]);
+    }
+    return root;
+}
+
+Node* searchNode(Node* root){
+    if(root->right == nullptr)
+        return root;
+    return searchNode(root->right);
+}
+std::queue<Node*> myqueue;
+int main()
+{
+    int n, _min = 10000000;
+
+
+    std::cin >> n;
+
+    int price[N];
+
+    for(int i=0; i < n; i++){
+        std::cin >> price[i];
+    }
+
+    Node* root;
+    createTree(root, price, n);
+
+    if(root != nullptr)
+        myqueue.push(root);
+
+    while(!myqueue.empty()){
+        Node* curNode = myqueue.front();
+        //std::cout << curNode->key << " ";
+
+        if(curNode->left != nullptr){
+            myqueue.push(curNode->left);
+            _min = min(_min, curNode->key - searchNode(curNode->left)->key);
+        }
+        if(curNode->right != nullptr)
+            myqueue.push(curNode->right);
+        myqueue.pop();
+    }
+
+    std::cout << _min << endl;
+
+    return 0;
+}
