@@ -1,0 +1,2 @@
+http://lightoj.com/volume_showproblem.php?problem=1041
+https://www.spoj.com/problems/MST/
